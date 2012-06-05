@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/d3.v2.js"></script>
+		<script type="text/javascript" src="empires.js"></script>
+		<style type="text/css">
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #000;
+				font-family: sans-serif;
+				font-size: 12px;
+				color: #666;
+				overflow: hidden;
+				height:800px; /* bfl June 1, 2012 */
+			}
+
+			.vis {
+				background: #000;
+				border: none;
+				shape-rendering: crispEdges;
+			}
+
+			rect.bar {
+				stroke: #000;
+				fill: #2AB991;
+				fill-opacity: .75;
+			}
+			g.barGroup:hover rect.bar {
+				fill-opacity: 1;
+			}
+
+			line.peakLine {
+				stroke: #AEFF00;
+				stroke-width: 1px;
+			}
+
+			text {
+				font-family: sans-serif;
+				font-size: 9px;
+				fill: #fff;
+			}
+
+			text.rule {
+				fill: #888;
+			}
+			line.tickLine {
+				stroke: #333;
+			}
+			line.mouseLine {
+				stroke: #0ff;
+				stroke-opacity: .3;
+			}
+
+			#controls {
+				padding: 10px;
+				text-align: center;
+			}
+			a {
+				cursor: pointer;
+				color: #2AB991;
+				text-decoration: none;
+			}
+			a.active {
+				color: #AEFF00;
+			}
+
+			#infobox {
+				position: absolute;
+				width: 200px;
+				height: auto;
+				padding: 8px;
+				display: none;
+				background: #333;
+				color: #aaa;
+			}
+			.title {
+				color: #fff;
+				font-weight: bold;
+			}
+
+		</style>
+
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-10597439-3']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="controls">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="left"><span class="title">History's Largest Empires</span> by Land Area</td>
+					<td align="center" style="padding: 0 20px"><span id="layoutControls" class="controlGroup"> <a id="layout-timespan" class="active" onclick="javascript:setControl(this, 'display', 'aligned', true); return false;">Spans</a> | <a id="layout-timeline" onclick="javascript:setControl(this, 'display', 'timeline', true); return false;">Timeline</a> | <a id="layout-peakrs" onclick="javascript:setControl(this, 'display', 'centered', true); return false;">Peaks</a> </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="heightControls" class="controlGroup"> <a id="height-fixed" class="active" onclick="javascript:setControl(this, 'height', 'fixed', true); return false;">Fixed</a> | <a id="height-area" onclick="javascript:setControl(this, 'height', 'area', true); return false;">Land Area</a> | <a id="height-population" onclick="javascript:setControl(this, 'height', 'population', true); return false;">% World Population</a> </span></td>
+					<td align="right"> By Edward Lee, Data from <a href="http://en.wikipedia.org/wiki/List_of_largest_empires">Wikipedia</a></td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="infobox"></div>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+Name,Land_area_million_km2,Contiguous,Start,Peak,End,Span,Population_millions,Estimated_Population,Population_Year,World_Population,Percent_World_Population
+British Empire,33.7,No,1603,1922,1997,394,458,458,1938,2295,0.19956427015251
+Mongol Empire,33,Yes,1206,1309,1368,162,110,110,1309,429,0.25641025641026
+Russian Empire,23.7,Yes,1721,1866,1917,196,176.4,176.4,1913,1791,0.098492462311558
+Spanish Empire,20,No,1402,1765,1975,573,68.2,68.2,1765,556,0.1226618705036
+"Qing Dynasty, China",14.7,Yes,1644,1790,1912,268,432.2,432.2,1851,1041,0.41517771373679
+Yuan Dynasty,14,Yes,1271,1310,1368,97,59.8,59.8,1291,350,0.17085714285714
+Umayyad Caliphate,13,Yes,661,735,750,89,62,62,750,210,0.2952380952381
+Second French Colonial Empire,13,No,1803,1938,1977,174,112.9,112.9,1938,2295,0.049193899782135
+Abbasid Caliphate,11.1,Yes,750,750,1258,508,50,50,850,250,0.2
+Portuguese Empire,10.4,No,1415,1815,1975,560,,,,,#DIV/0!
+Rashidun Caliphate,9,Yes,632,654,661,29,40.3,40.3,650,210,0.19190476190476
+Empire of Brazil,8.5,Yes,1822,1880,1889,67,,,,,#DIV/0!
+"Achaemenid Empire, Persia",8,Yes,-550,-480,-330,220,49.4,49.4,-480,112.4,0.43950177935943
+Japanese Empire,7.4,No,1868,1942,1945,77,134.8,134.8,1938,2295,0.058736383442266
+"Han Dynasty, China",6.5,Yes,-206,100,220,426,74,59.6,2,230,0.25913043478261
+"Ming Dynasty, China",6.5,Yes,1368,1450,1644,276,110,110,1600,556.2,0.1977705861201
+Roman Empire,6.5,Yes,-27,117,476,503,80,80,150,223,0.35874439461883
+Nazi Germany,6.4,Yes,1933,1942,1945,12,75.4,75.4,1938,2295,0.032854030501089
+Göktürk Khaganate,6,Yes,552,557,747,195
+Golden Horde Khanate,6,Yes,1240,1310,1502,262
+Uyghur Khaganate,5.5,Yes,742,800,848,106
+"Tang Dynasty, China",5.4,Yes,618,715,907,289,70,70,850,250,0.28
+Macedonian Empire (Alexander the Great),5.2,Yes,-334,-323,-323,11
+Ottoman Empire,5.2,Yes,1299,1683,1922,623,39,39,1650,556,0.070143884892086
+Fatimid Caliphate,5.1,Yes,909,969,1171,262
+"Maurya Empire, India",5,Yes,-321,-250,-185,136,50,50,-150,150,0.33333333333333
+"Northern Yuan Dynasty, Mongolia",5,Yes,1368,1550,1635,267
+First Mexican Empire,4.9,Yes,1821,1822,1823,2
+"Xin Dynasty, China",4.7,Yes,9,10,23,14
+Tufan Tibet Empire,4.6,Yes,700,800,1100,400
+Timurid Empire,4.6,Yes,1370,1405,1526,156
+"Mughal Empire, India",4.6,Yes,1526,1690,1858,332,175,175,1700,600,0.29166666666667
+Xiongnu Empire,4.03,Yes,-250,-176,465,715
+"Pala Empire, India",4,Yes,750,850,1174,424,60,60,850,250,0.24
