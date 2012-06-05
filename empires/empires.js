@@ -3,6 +3,8 @@
 // This [D3](http://d3js.org/) visualization is by [Edward Lee](http://www.visualizing.org/users/edward-lee), with a 
 // few minor modifications by [BFL](mailto:bradflyon@gmail.com)
 //
+//The (slightly modified) visualization can be viewed [here](http://nowherenearithaca.github.com/empires/index.html)
+//
 //Notes by [BFL](mailto:bradflyon@gmail.com)
 //
 //The basic structure of this example could probably serve as a nice template for many D3 visualizations, having the
